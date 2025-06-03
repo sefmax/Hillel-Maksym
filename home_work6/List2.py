@@ -1,8 +1,8 @@
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-divided = len(list) // 2
-list1 = list[:divided]
-list2 = list[divided:]
+divided = len(my_list) // 2
+list1 = my_list[:divided]
+list2 = my_list[divided:]
 
 if len(list1) == len(list2):
     new_list = [list1, list2]
@@ -17,7 +17,8 @@ elif len(list1) != len(list2):
 elif len(list1) >= 1 and len(list2) == 0:
     x = list1[:divided]
     y = [x, list2]
-    print(x)
+    new_list = [list1, list2]
+    print(new_list)
 
 else:
     new_list = [list1, list2]
