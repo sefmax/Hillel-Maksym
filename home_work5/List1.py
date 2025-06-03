@@ -5,11 +5,5 @@ if len(x) > 0:
     x.insert(0, value)
     print(x)
 
-elif len(x) == 1:
-    print(x)
-
-#elif len(x) == 0:
- #   print(x)
- #   print('zero')
 else:
     print(x)
